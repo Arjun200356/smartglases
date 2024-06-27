@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Glasses and Ring Controller</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .product {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 800px;
+            margin: 20px;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .product h2 {
+            margin-top: 0;
+        }
+        .cta {
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .cta:hover {
+            background-color: #45a049;
+        }
+        .footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Smart Glasses & Ring Controller</h1>
+        <p>The Future of Wearable Technology</p>
+    </div>
+    <div class="container">
+        <div class="product">
+            <img src="Screenshot 2024-06-27 at 12.10.20 PM.png" alt="Smart Glasses and Ring">
+            <h2>Revolutionary Smart Glasses</h2>
+            <p>Experience the ultimate convenience with our smart glasses, controlled seamlessly by our innovative ring controller. Navigate your digital world with just a flick of your finger.</p>
+            <h3>Features:</h3>
+            <ul>
+                <li>Hands-free control with a sleek, stylish ring</li>
+                <li>High-resolution display built into the glasses</li>
+                <li>Lightweight and comfortable for all-day wear</li>
+                <li>Bluetooth connectivity</li>
+                <li>Long-lasting battery life</li>
+            </ul>
+            <button class="cta">Buy Now</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Smart Wearables Inc.</p>
+    </div>
+</body>
+</html>
