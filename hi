@@ -1,93 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Glasses and Ring Controller</title>
+    <meta name="description" content="Reabeach - A sustainable company dedicated to cleaning the beach and preserving marine life.">
+    <title>Rebeach | Clean Beaches for a Sustainable Future</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #f0f8ff; /* Light ocean blue */
             color: #333;
         }
-        .header {
-            background-color: #4CAF50;
+
+        header {
+            background-color: #008080; /* Teal color symbolizing the ocean */
             color: white;
-            padding: 20px;
+            padding: 20px 0;
             text-align: center;
         }
-        .container {
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            background-color: #004d40; /* Dark green for eco-friendly touch */
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-        }
-        .product {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            max-width: 800px;
-            margin: 20px;
-        }
-        .product img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-        .product h2 {
-            margin-top: 0;
-        }
-        .cta {
-            margin: 20px;
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        .cta:hover {
-            background-color: #45a049;
-        }
-        .footer {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
+            justify-content: center;
             padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            color: #ffeb3b; /* Bright yellow to highlight links */
+        }
+
+        .hero-section {
+            background-image: url('https://www.signupgenius.com/cms/images/groups/beach-clean-up-tips-ideas-article-600x400.jpg'); /* Placeholder for beach cleaning image */
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .hero-section h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .intro-section {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #e0f7fa; /* Light blue for clean vibe */
+        }
+
+        .intro-section h3 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .intro-section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .services-section {
+            background-color: #f9fbe7; /* Soft yellow for eco services */
+            padding: 40px 20px;
+        }
+
+        .services-section h3 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 40px;
+        }
+
+        .service {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        .service div {
+            flex-basis: 30%;
+            text-align: center;
+        }
+
+        .service div img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+
+        .service div p {
+            font-size: 1.1em;
+            line-height: 1.4;
+        }
+
+        footer {
+            background-color: #004d40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #ffeb3b;
+            text-decoration: none;
         }
     </style>
 </head>
+
 <body>
-    <div class="header">
-        <h1>Smart Glasses & Ring Controller</h1>
-        <p>The Future of Wearable Technology</p>
-    </div>
-    <div class="container">
-        <div class="product">
-            <img src="Screenshot 2024-06-27 at 12.10.20 PM.png" alt="Smart Glasses and Ring">
-            <h2>Revolutionary Smart Glasses</h2>
-            <p>Experience the ultimate convenience with our smart glasses, controlled seamlessly by our innovative ring controller. Navigate your digital world with just a flick of your finger.</p>
-            <h3>Features:</h3>
-            <ul>
-                <li>Hands-free control with a sleek, stylish ring</li>
-                <li>High-resolution display built into the glasses</li>
-                <li>Lightweight and comfortable for all-day wear</li>
-                <li>Bluetooth connectivity</li>
-                <li>Long-lasting battery life</li>
-            </ul>
-            <button class="cta">Buy Now</button>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Rebeach</h1>
+        <p>Clean Beaches, Clean Future</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Our Services</a>
+        <a href="#volunteer">Volunteer</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h2>Protecting Our Oceans, One Beach at a Time</h2>
+    </section>
+
+    <!-- Intro Section -->
+    <section class="intro-section" id="about">
+        <h3>About Rebeach</h3>
+        <p>At Rebeach, we are committed to restoring our beaches and protecting marine ecosystems through sustainable and innovative practices. Our mission is to rid the world’s beaches of harmful waste while empowering local communities to take action in preserving the natural beauty of our planet.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <h3>Our Services</h3>
+        <div class="service">
+            <div>
+                <img src="https://oceanconservancy.org/wp-content/uploads/2022/11/Pic-5-2.webp" alt="Beach cleaning">
+                <h4>Beach Cleaning</h4>
+                <p>We organize beach cleaning drives and ensure waste is collected, sorted, and recycled appropriately.</p>
+            </div>
+            <div>
+                <img src="https://worldoceanday.org/wp-content/uploads/2022/05/Clean-Coasts-clean-up.jpeg" alt="Eco-education">
+                <h4>Eco-Education</h4>
+                <p>We educate communities about reducing plastic usage and implementing sustainable practices to keep beaches clean.</p>
+            </div>
+            <div>
+                <img src="https://as2.ftcdn.net/v2/jpg/03/34/97/51/1000_F_334975128_pYxLQmdsV4lWrT7E9PuGjrTrvlIhRrG6.jpg" alt="Recycling programs">
+                <h4>Recycling Programs</h4>
+                <p>We create recycling initiatives that transform beach waste into reusable products and eco-friendly materials.</p>
+            </div>
         </div>
-    </div>
-    <div class="footer">
-        <p>&copy; 2024 Smart Wearables Inc.</p>
-    </div>
+    </section>
+
+    <!-- Volunteer Section -->
+    <section class="intro-section" id="volunteer">
+        <h3>Join Us in Making a Difference</h3>
+        <p>Want to help us clean up the beach? Join our volunteer program and become part of the solution. Together, we can protect our oceans and create a more sustainable future.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="intro-section" id="contact">
+        <h3>Contact Us</h3>
+        <p>If you have any questions or want to learn more about our efforts, feel free to reach out to us at <a href="mailto:contact@reabeach.com">contact@reabeach.com</a>.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Rebeach. All Rights Reserved. | Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">Twitter</a></p>
+    </footer>
+
 </body>
+
 </html>
